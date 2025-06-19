@@ -87,8 +87,6 @@ Les utilisateurs disposant d’un accès validé bénéficient de :
 - Un espace d’échange dédié (serveur Discord sécurisé)
 - Mises à jour incrémentales (scripts ou portail)
 - Documentation continue pour intégration dans les workflows QA
-
-**Contact technique :** [gammoudi.khaled@outlook.fr](mailto:gammoudi.khaled@outlook.fr)
 ---
 
 ## Accès restreint
