@@ -23,7 +23,6 @@ Le starter permet de :
 
 ---
 
-````md
 ## Structure du dépôt
 
 ```text
@@ -39,7 +38,7 @@ aiqa-starter-kit/
 ├── ci/                    # Pipelines CI (GitHub Actions, GitLab...)
 ├── playwright.config.ts   # Configuration d'exécution locale
 └── README.md              # Présent document
-````
+```
 
 ## Workflow opérationnel
 
@@ -121,4 +120,4 @@ Les utilisateurs disposant d’un accès validé bénéficient de :
 - Mises à jour incrémentales (scripts ou portail)
 - Documentation continue pour intégration dans les workflows QA
 
-**Contact technique :** [gammoudi.khaled@outlook.fr](mailto:gammoudi.khaled@outlook.fr)
+**Contact technique :** [gammoudi.khaled@outlook.fr]
