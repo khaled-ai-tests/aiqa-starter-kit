@@ -58,6 +58,7 @@ aiqa-starter-kit/
 
 > Le moteur IA n’est pas inclus dans ce dépôt. Aucune logique de génération ou d’orchestration n’est exposée.
 
+---
 
 ## Accès restreint
 
