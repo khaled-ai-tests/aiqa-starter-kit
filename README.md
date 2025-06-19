@@ -57,11 +57,10 @@ aiqa-starter-kit/
 4. **Intégration et exécution**
    Les tests générés peuvent être validés, modifiés puis intégrés dans une chaîne CI/CD pour exécution automatisée.
 
-> ⚠️ Le moteur IA n’est pas inclus dans ce dépôt. Aucune logique de génération ou d’orchestration n’est exposée.
+> Le moteur IA n’est pas inclus dans ce dépôt. Aucune logique de génération ou d’orchestration n’est exposée.
 
 ```
 
-```
 
 ## Accès restreint
 
