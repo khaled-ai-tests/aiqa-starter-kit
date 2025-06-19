@@ -56,22 +56,21 @@ aiqa-starter-kit/
 
 ## Workflow opérationnel
 
-1. **Expression du besoin fonctionnel**  
-   Le consultant QA décrit un comportement attendu via un scénario Gherkin ou une instruction en langage naturel.
+**1. Expression du besoin fonctionnel**  
+Le consultant QA décrit un comportement attendu via un scénario Gherkin ou une instruction en langage naturel.
 
-2. **Envoi au moteur IA**  
-   Le script `send_to_IA.sh` transmet cette expression métier à une API privée hébergeant le moteur IA.
+**2. Envoi au moteur IA**  
+Le script `send_to_IA.sh` transmet cette expression métier à une API privée hébergeant le moteur IA.
 
-3. **Génération automatisée**  
-   Le moteur IA retourne un ensemble de fichiers prêts à l’emploi :
-   - Un fichier `.spec.ts` structuré selon le modèle POM
-   - Des composants complémentaires si nécessaire (data sets, page models, fixtures)
+**3. Génération automatisée**  
+Le moteur IA retourne un ensemble de fichiers prêts à l’emploi :
+- Un fichier `.spec.ts` structuré selon le modèle POM
+- Des composants complémentaires si nécessaire (data sets, page models, fixtures)
 
-4. **Intégration et exécution**  
-   Les tests générés peuvent être validés, modifiés puis intégrés dans une chaîne CI/CD pour exécution automatisée.
+**4. Intégration et exécution**  
+Les tests générés peuvent être validés, modifiés puis intégrés dans une chaîne CI/CD pour exécution automatisée.
 
 > ⚠️ Le moteur IA n’est pas inclus dans ce dépôt. Aucune logique de génération ou d’orchestration n’est exposée.
-
 ---
 
 ## Accès restreint
