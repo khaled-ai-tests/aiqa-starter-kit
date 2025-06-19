@@ -25,21 +25,7 @@ Le starter permet de :
 
 ## Structure du dépôt
 
-```markdown
-aiqa-starter-kit/
-├── features/              # Scénarios Gherkin métier
-├── tests/                 # Tests générés en TypeScript (.spec.ts)
-├── pages/                 # Page Object Models
-├── utils/                 # Fonctions utilitaires (waits, assertions)
-├── test-data/             # Données de test externes (JSON, CSV)
-├── scripts/
-│   └── send_to_IA.sh      # Envoi d'un besoin métier vers le moteur IA
-├── docs/                  # Documentation et guides d'intégration
-├── ci/                    # Pipelines CI (GitHub Actions, GitLab...)
-├── playwright.config.ts   # Configuration d'exécution locale
-└── README.md              # Présent document
-
-
+```text
 aiqa-starter-kit/
 ├── features/              # Scénarios Gherkin métier
 ├── tests/                 # Tests générés en TypeScript (.spec.ts)
@@ -63,14 +49,14 @@ aiqa-starter-kit/
    Le script `send_to_IA.sh` transmet cette expression métier à une API privée hébergeant le moteur IA.
 
 3. **Génération automatisée**  
-   Le moteur IA retourne un ensemble de fichiers prêts à l’emploi :  
-   &nbsp;&nbsp;&nbsp;&nbsp;- Un fichier `.spec.ts` structuré selon le modèle POM  
-   &nbsp;&nbsp;&nbsp;&nbsp;- Des composants complémentaires si nécessaire (data sets, page models, fixtures)
+   Le moteur IA retourne un ensemble de fichiers prêts à l’emploi :
+   - Un fichier `.spec.ts` structuré selon le modèle POM
+   - Des composants complémentaires si nécessaire (data sets, page models, fixtures)
 
 4. **Intégration et exécution**  
    Les tests générés peuvent être validés, modifiés puis intégrés dans une chaîne CI/CD pour exécution automatisée.
 
-> Le moteur IA n’est pas inclus dans ce dépôt. Aucune logique de génération ou d’orchestration n’est exposée.
+> ⚠️ Le moteur IA n’est pas inclus dans ce dépôt. Aucune logique de génération ou d’orchestration n’est exposée.
 
 ---
 
