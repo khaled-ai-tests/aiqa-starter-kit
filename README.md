@@ -60,16 +60,6 @@ aiqa-starter-kit/
 
 ---
 
-
-## Accès restreint
-
-L’ensemble des composants intelligents (LLM orchestration, validation, auto-réécriture...) est **hébergé en privé**.
-
-- L’accès nécessite une souscription validée via notre plateforme : [https://aiqa.dev](https://aiqa.dev)
-- Voir [LICENSE](./LICENSE.md) pour les conditions d’utilisation et les restrictions juridiques
-
----
-
 ## Accès restreint
 
 L’ensemble des composants intelligents (LLM orchestration, validation, auto-réécriture...) est **hébergé en privé**.
