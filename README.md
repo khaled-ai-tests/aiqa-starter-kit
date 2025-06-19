@@ -70,27 +70,6 @@ L’ensemble des composants intelligents (LLM orchestration, validation, auto-r�
 
 ---
 
-## Perspectives d’évolution
-
-Ce starter s’inscrit dans une vision long terme orientée produit SaaS. Les axes d’évolution incluent :
-
-- Support multi-runner (UI, API, mobile, BDD)
-- Intégration avec des outils TMS (Jira, Xray, Zephyr)
-- Interface no-code pour la génération assistée
-- Apprentissage progressif basé sur les résultats de tests
-- Orchestration IA par domaine fonctionnel ou projet
-
----
-
-## Support & communauté
-
-Les utilisateurs disposant d’un accès validé bénéficient de :
-
-- Un espace d’échange dédié (serveur Discord sécurisé)
-- Mises à jour incrémentales (scripts ou portail)
-- Documentation continue pour intégration dans les workflows QA
----
-
 ## Accès restreint
 
 L’ensemble des composants intelligents (LLM orchestration, validation, auto-réécriture...) est **hébergé en privé**.
