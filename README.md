@@ -1,6 +1,6 @@
 # aiqa-starter-kit
 
-**Cadre modulaire pour l’implémentation de stratégies de test intelligentes pilotées par IA — orienté métier, scalable, et interopérable.**
+**Cadre modulaire pour l’implémentation de stratégies de test pilotées par IA — orienté métier, scalable, et interopérable.**
 
 ---
 
