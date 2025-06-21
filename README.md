@@ -27,17 +27,19 @@ Le starter permet de :
 
 ```text
 aiqa-starter-kit/
-├── features/              # Scénarios Gherkin métier
-├── tests/                 # Tests générés en TypeScript (.spec.ts)
-├── pages/                 # Page Object Models
-├── utils/                 # Fonctions utilitaires (waits, assertions)
-├── test-data/             # Données de test externes (JSON, CSV)
+├── features/              # Scénarios Gherkin
+├── pages/                 # POM TypeScript
+├── tests/                 # Tests E2E Playwright (UI)
+├── api-tests/             # Tests d’API (REST, GraphQL, etc.)
+├── utils/                 # Fonctions partagées
+├── test-data/             # Données JSON / CSV
 ├── scripts/
-│   └── send_to_IA.sh      # Envoi d'un besoin métier vers le moteur IA
-├── docs/                  # Documentation et guides d'intégration
-├── ci/                    # Pipelines CI (GitHub Actions, GitLab...)
-├── playwright.config.ts   # Configuration d'exécution locale
-└── README.md              # Présent document
+│   └── send_to_IA.sh      # Bridge IA
+├── docs/                  # Guides, tutoriels QA
+├── ci/                    # GitHub Actions, GitLab CI
+├── playwright.config.ts   # Config locale
+├── ai-meta/               # Dossier non livré, utilisé pour l’orchestration IA (mappings, prompts, etc.)
+└── README.md              # Présentation du projet
 ```
 
 ## Workflow opérationnel
@@ -56,7 +58,7 @@ aiqa-starter-kit/
 4. **Intégration et exécution**  
    Les tests générés peuvent être validés, modifiés puis intégrés dans une chaîne CI/CD pour exécution automatisée.
 
-> ⚠️ Le moteur IA n’est pas inclus dans ce dépôt. Aucune logique de génération ou d’orchestration n’est exposée.
+> Le moteur IA n’est pas inclus dans ce dépôt. Aucune logique de génération ou d’orchestration n’est exposée.
 
 ---
 
