@@ -1,10 +1,10 @@
 # aiqa-starter-kit
 
-**Base de test modulaire, pilotée par IA — orientée métier, maintenable, et extensible.**
+**Base modulaire pour l’automatisation de tests — orientée métier, maintenable, extensible, et conçue pour l’intégration d’un moteur IA privé.**
 
 ---
 
-## 🎯 Objectif
+## Objectif
 
 Ce dépôt sert de **cadre public standardisé** pour l’intégration d’un moteur IA privé générateur de tests.
 
@@ -35,7 +35,7 @@ aiqa-starter-kit/
 ├── scripts/            # Scripts utilitaires
 │   └── send_to_IA.sh   # Envoi vers moteur IA (bridge privé)
 ├── ci/                 # Pipelines CI (GitHub Actions, GitLab...)
-├── ai-meta/            # 🔒 Prompts IA, mapping DOM, sessions (non livré)
+├── ai-meta/            # Prompts IA, mapping DOM, sessions (non livré)
 ├── playwright.config.ts # Configuration locale Playwright
 └── README.md           # Présent document
 
@@ -74,4 +74,4 @@ Voir le fichier LICENSE pour les détails complets.
 ---
 
 
-**Contact technique :** pour toute question technique ou besoin de collaboration :[gammoudi.khaled@outlook.fr]
+**Contact technique :**:[gammoudi.khaled@outlook.fr]
