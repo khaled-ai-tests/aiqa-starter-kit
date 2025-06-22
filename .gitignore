@@ -134,3 +134,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Fichiers sensibles locaux pour la QA
+.env
+ai-meta/
+test-results/
+trace/
+playwright-report/
+videos/
+screenshots/

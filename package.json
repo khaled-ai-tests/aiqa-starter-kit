@@ -1,0 +1,27 @@
+{
+  "name": "aiqa-starter-kit",
+  "version": "1.0.0",
+  "description": "**Cadre modulaire pour l’implémentation de stratégies de test pilotées par IA — orienté métier, scalable, et interopérable.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaled-ai-tests/aiqa-starter-kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khaled-ai-tests/aiqa-starter-kit/issues"
+  },
+  "homepage": "https://github.com/khaled-ai-tests/aiqa-starter-kit#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "playwright": "^1.53.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
