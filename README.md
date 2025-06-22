@@ -27,19 +27,26 @@ Le starter permet de :
 
 ```text
 aiqa-starter-kit/
-├── features/              # Scénarios Gherkin
-├── pages/                 # POM TypeScript
-├── tests/                 # Tests E2E Playwright (UI)
-├── api-tests/             # Tests d’API (REST, GraphQL, etc.)
-├── utils/                 # Fonctions partagées
-├── test-data/             # Données JSON / CSV
-├── scripts/
-│   └── send_to_IA.sh      # Bridge IA
-├── docs/                  # Guides, tutoriels QA
-├── ci/                    # GitHub Actions, GitLab CI
-├── playwright.config.ts   # Config locale
-├── ai-meta/               # Dossier non livré, utilisé pour l’orchestration IA (mappings, prompts, etc.)
-└── README.md              # Présentation du projet
+├── features/               # ✅ Scénarios Gherkin générés
+├── pages/                  # ✅ Page Object Models (Playwright)
+├── tests/                  # ✅ Tests UI E2E (.spec.ts)
+├── api-tests/              # ✅ Tests d'API générés (.spec.ts)
+├── utils/                  # ✅ Fonctions partagées (web + API)
+├── test-data/              # ✅ Données de test JSON, CSV
+├── recorder/               # 🔄 Nouveau : captures UI/API (DOM, screenshots, events)
+│   ├── traces/             # Sessions QA enrichies (JSON)
+│   └── raw/                # Screenshots, snapshots DOM (si activé)
+├── scripts/                # ⚙️ Utilitaires manuels
+│   └── send_to_IA.sh       # Bridge vers moteur IA
+├── docs/                   # 💤 (à laisser vide ou minimal, formation plus tard)
+├── ci/                     # ✅ GitHub Actions, GitLab, etc.
+├── ai-meta/                # 🔒 Orchestration IA (non livré)
+│   ├── prompts/            # Prompts structurés
+│   ├── mappings/           # Mappings DOM ↔ intentions
+│   └── sessions/           # Exemple de dialogues / traitement
+├── playwright.config.ts    # ✅ Config locale
+└── README.md               # Intro minimale
+
 ```
 
 ## Workflow opérationnel
